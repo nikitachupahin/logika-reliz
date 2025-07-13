@@ -1,0 +1,181 @@
+body {
+    margin:0;
+    padding:0;
+}
+
+nav a {
+    margin: 20px;
+    font-size: 25px;
+    color: #6B3311;
+    text-decoration: none;
+    transition: 0.3s all;
+    padding: 10px;
+}
+
+h1 {
+    margin-bottom: 270px;
+}
+
+
+nav a:hover {
+    color: white;
+    background-color: #6B3311;
+    border-radius: 10px;
+}
+
+.logo {
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 75px;
+    color: #6B3311;
+    text-align: center;
+    -webkit-text-stroke:1px white ;
+
+}
+
+h2 {
+    text-align: center;
+}
+
+header {
+    display: flex;
+    flex-direction: column-reverse;
+    background-image: url("https://learn.logikaschool.com/uploads/student/3143308/67b1bc8f2967b.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    -webkit-text-stroke:1px white ;
+    gap: 50px;
+}
+
+header, main, footer {
+    padding: 0 88px;
+}
+
+.nav-in {
+    color: #6B3311;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+div p {
+    font-size: 20px;
+    color: black;
+}
+.about-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about-div p {
+    font-size: 24px;
+    max-width: 574px;
+    line-height: 1.5;
+}
+
+.about h2 {
+    font-size: 40px;
+    color: #6B3311;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#catalog {
+    font-size: 40px;
+    color: #6B3311;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+.catalog-items {
+    display:flex;
+    justify-content: center;
+    gap:55px ;
+}
+
+.menu-info {
+    color: #575757;
+}
+
+article p {
+    color: #575757;
+}
+
+.sallary {
+    color: black;
+}
+
+#reviews {
+    font-size: 40px;
+    color: #6B3311;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+.reviews-item {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 50px;
+    margin-bottom: 70px;
+
+}
+
+footer {
+    display: flex;
+    background-image: url("https://learn.logikaschool.com/uploads/student/3143308/67b1c8cf5348a.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    justify-content: space-between;
+    
+}
+#contacts {
+    color: #6B3311;
+    -webkit-text-stroke:1px white ;
+}
+
+footer p {
+    color: #6B3311;
+    -webkit-text-stroke:1px white ;
+}
+
+.footer-socials {
+    color: #6B3311;
+    
+}
+
+.footer-img {
+    width: 50px;
+}
+
+.location {
+    text-align: center;
+    font-size: 28px;
+    color: #6B3311;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.location-streets h3 {
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+}
+
+#location {
+    display: flex;
+    justify-content: center;
+}
+
+.location-streets p {
+    display: flex;
+    justify-content: center;
+    font-size: 28px;
+}
+
+
+.sallary {
+    font-weight: 700;
+}
